@@ -82,24 +82,6 @@ app.post('/', function(req, res) {
   res.end();
 });
 
-// const server = http.createServer(function(req, res) {
-//   let body = '';
-
-//   req.on('data', chunk => {
-//     body += chunk;
-//   });
-
-//   req.on('end', () => {
-//     queue.push(JSON.parse(body));
-//   });
-
-//   res.writeHeader(200, {
-//     'Access-Control-Allow-Origin': '*'
-//   });
-
-//   res.end();
-// });
-
 setInterval(parseErrors, 2000);
 
 app.listen(3000, function() {
