@@ -1,0 +1,21 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "develop": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.0"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^2.30.1"
+  }
+}
